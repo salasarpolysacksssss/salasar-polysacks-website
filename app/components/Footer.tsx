@@ -61,11 +61,27 @@ export default function Footer() {
                             </li>
                             <li className="flex items-center gap-3">
                                 <span className="text-primary text-xs font-bold">▸</span>
-                                <span>{siteData.contact.phoneSecondary}</span>
+                                <a href={`tel:${siteData.contact.phone.replace(/\s+/g, '')}`} className="hover:text-primary transition-colors">
+                                    {siteData.contact.phone}
+                                </a>
                             </li>
                             <li className="flex items-center gap-3">
                                 <span className="text-primary text-xs font-bold">▸</span>
-                                <span>{siteData.contact.phone}</span>
+                                <a href={`tel:${siteData.contact.phoneSecondary.replace(/\s+/g, '')}`} className="hover:text-primary transition-colors">
+                                    {siteData.contact.phoneSecondary}
+                                </a>
+                            </li>
+                            <li className="flex items-center gap-3">
+                                <span className="text-primary text-xs font-bold">▸</span>
+                                <a href={`tel:${siteData.contact.phoneThird.replace(/\s+/g, '')}`} className="hover:text-primary transition-colors">
+                                    {siteData.contact.phoneThird}
+                                </a>
+                            </li>
+                            <li className="flex items-center gap-3">
+                                <span className="text-primary text-xs font-bold">▸</span>
+                                <a href={`tel:${siteData.contact.phoneFourth.replace(/\s+/g, '')}`} className="hover:text-primary transition-colors">
+                                    {siteData.contact.phoneFourth}
+                                </a>
                             </li>
                             <li className="flex items-center gap-3">
                                 <span className="text-primary text-xs font-bold">▸</span>

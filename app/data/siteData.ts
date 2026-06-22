@@ -190,8 +190,10 @@ export const siteData = {
         }
     ],
     contact: {
-        phone: "+91 6358811335",
-        phoneSecondary: " +91 8238619900",
+        phone: "+91 6358 8113 35",
+        phoneSecondary: " +91 8238 6199 00",
+        phoneThird: "+91 6356 0022 05",
+        phoneFourth: "+91 9377 8922 15",
         email: "info@salasarpolysacks.com",
         gstNumber: "26ABDFS2230C1ZR",
         addressLine1: "Plot No, 4, Sr. No. 46/1-P , Daman Ganga Ind, Estate ",

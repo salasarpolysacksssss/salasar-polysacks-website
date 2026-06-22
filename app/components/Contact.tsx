@@ -114,8 +114,26 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <div className="font-bold text-sm uppercase tracking-wider">Phone</div>
-                                        <p className="text-gray-400 mt-1">{siteData.contact.phone}</p>
-                                        <p className="text-gray-400">{siteData.contact.phoneSecondary}</p>
+                                        <p className="text-gray-400 mt-1">
+                                            <a href={`tel:${siteData.contact.phone.replace(/\s+/g, '')}`} className="hover:text-primary transition-colors">
+                                                {siteData.contact.phone}
+                                            </a>
+                                        </p>
+                                        <p className="text-gray-400">
+                                            <a href={`tel:${siteData.contact.phoneSecondary.replace(/\s+/g, '')}`} className="hover:text-primary transition-colors">
+                                                {siteData.contact.phoneSecondary}
+                                            </a>
+                                        </p>
+                                        <p className="text-gray-400">
+                                            <a href={`tel:${siteData.contact.phoneThird.replace(/\s+/g, '')}`} className="hover:text-primary transition-colors">
+                                                {siteData.contact.phoneThird}
+                                            </a>
+                                        </p>
+                                        <p className="text-gray-400">
+                                            <a href={`tel:${siteData.contact.phoneFourth.replace(/\s+/g, '')}`} className="hover:text-primary transition-colors">
+                                                {siteData.contact.phoneFourth}
+                                            </a>
+                                        </p>
                                     </div>
                                 </div>
 
