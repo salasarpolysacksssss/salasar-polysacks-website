@@ -200,7 +200,7 @@ export const siteData = {
         addressLine2: "Naroli Road , Athal , Silvassa (U.T.) ",
         addressCountry: "India",
         businessHours: "Mon - Sat: 9:00 AM - 6:00 PM",
-        businessHoursSunday: "Sunday: Closed",
+        businessHoursSunday: "Sunday: 9:00 AM - 6:00 PM",
         mapIframeSrc: "https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d2714.5642048243058!2d72.9802693497988!3d20.268039753950838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e0!4m3!3m2!1d20.2679752!2d72.97848069999999!4m3!3m2!1d20.267958399999998!2d72.9782175!5e1!3m2!1sen!2sin!4v1771836990203!5m2!1sen!2sin",
     },
     clients: [
